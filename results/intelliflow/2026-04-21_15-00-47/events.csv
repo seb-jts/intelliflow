@@ -1,0 +1,104 @@
+timestamp,event_type,link_id,utilisation,delta_utilisation,state,details
+1776783697.471431,spike_detected,0000000000000001:2,0.955622,0.864283,active,util=0.9556 delta=0.8643
+1776783697.471485,mitigation_installed,0000000000000001:2,0.955622,0.864283,active,target=path_b expiry=1776783700.471
+1776783698.981616,recovery_started,0000000000000001:2,0.003381,0.000000,recovering,util below 0.6
+1776783699.988576,mitigation_cleared_recovered,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783699.988625,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783700.495732,trigger_blocked_refractory,0000000000000001:2,0.003619,0.000238,refractory,link in refractory period
+1776783700.998626,trigger_blocked_refractory,0000000000000001:2,0.003483,-0.000136,refractory,link in refractory period
+1776783701.501455,trigger_blocked_refractory,0000000000000001:2,0.003483,-0.000136,refractory,link in refractory period
+1776783703.515521,spike_detected,0000000000000001:2,0.902717,0.898877,active,util=0.9027 delta=0.8989
+1776783703.515564,mitigation_installed,0000000000000001:2,0.902717,0.898877,active,target=path_b expiry=1776783706.516
+1776783705.529924,recovery_started,0000000000000001:2,0.001860,0.000000,recovering,util below 0.6
+1776783705.529981,spike_detected,0000000000000001:3,0.826862,0.490452,active,util=0.8269 delta=0.4905
+1776783705.529998,mitigation_installed,0000000000000001:3,0.826862,0.490452,active,target=path_a expiry=1776783708.530
+1776783706.540340,mitigation_cleared_expired,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783706.540391,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783706.544275,recovery_started,0000000000000001:3,0.070192,0.000000,recovering,util below 0.6
+1776783707.114210,trigger_blocked_refractory,0000000000000001:2,0.002013,0.000154,refractory,link in refractory period
+1776783707.619489,trigger_blocked_refractory,0000000000000001:2,0.002163,0.000150,refractory,link in refractory period
+1776783707.619574,mitigation_cleared_recovered,0000000000000001:3,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783707.619591,refractory_entered,0000000000000001:3,0.000000,0.000000,refractory,duration=2.0s
+1776783708.126989,trigger_blocked_refractory,0000000000000001:2,0.002492,0.000329,refractory,link in refractory period
+1776783708.127039,trigger_blocked_refractory,0000000000000001:3,0.011243,0.000468,refractory,link in refractory period
+1776783708.630750,trigger_blocked_refractory,0000000000000001:3,0.011243,0.000468,refractory,link in refractory period
+1776783709.133773,trigger_blocked_refractory,0000000000000001:3,0.010014,-0.001229,refractory,link in refractory period
+1776783710.141493,spike_detected,0000000000000001:2,1.000000,0.262653,active,util=1.0000 delta=0.2627
+1776783710.141537,mitigation_installed,0000000000000001:2,1.000000,0.262653,active,target=path_b expiry=1776783713.141
+1776783711.206252,recovery_started,0000000000000001:2,0.415646,0.000000,recovering,util below 0.6
+1776783712.216752,mitigation_cleared_recovered,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783712.216829,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783712.723302,trigger_blocked_refractory,0000000000000001:2,0.000968,-0.414678,refractory,link in refractory period
+1776783713.226696,trigger_blocked_refractory,0000000000000001:2,0.001109,0.000141,refractory,link in refractory period
+1776783713.730933,trigger_blocked_refractory,0000000000000001:2,0.001109,0.000141,refractory,link in refractory period
+1776783718.258186,spike_detected,0000000000000001:2,1.000000,0.437562,active,util=1.0000 delta=0.4376
+1776783718.258232,mitigation_installed,0000000000000001:2,1.000000,0.437562,active,target=path_b expiry=1776783721.258
+1776783719.271531,recovery_started,0000000000000001:2,0.495447,0.000000,recovering,util below 0.6
+1776783720.278372,mitigation_cleared_recovered,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783720.278430,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783720.282459,spike_detected,0000000000000001:3,0.904246,0.229988,active,util=0.9042 delta=0.2300
+1776783720.282483,mitigation_installed,0000000000000001:3,0.904246,0.229988,active,target=path_a expiry=1776783723.282
+1776783720.787987,trigger_blocked_refractory,0000000000000001:2,0.000534,-0.494913,refractory,link in refractory period
+1776783721.356680,trigger_blocked_refractory,0000000000000001:2,0.723391,0.722857,refractory,link in refractory period
+1776783721.356737,recovery_started,0000000000000001:3,0.256816,0.000000,recovering,util below 0.6
+1776783721.859786,trigger_blocked_refractory,0000000000000001:2,0.723391,0.722857,refractory,link in refractory period
+1776783722.364329,spike_detected,0000000000000001:2,1.000000,0.276609,active,util=1.0000 delta=0.2766
+1776783722.364377,mitigation_installed,0000000000000001:2,1.000000,0.276609,active,target=path_b expiry=1776783725.364
+1776783722.364552,mitigation_cleared_recovered,0000000000000001:3,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783722.364581,refractory_entered,0000000000000001:3,0.000000,0.000000,refractory,duration=2.0s
+1776783722.871841,trigger_blocked_refractory,0000000000000001:3,0.011743,-0.245073,refractory,link in refractory period
+1776783723.376256,trigger_blocked_refractory,0000000000000001:3,0.011998,0.000255,refractory,link in refractory period
+1776783723.881547,trigger_blocked_refractory,0000000000000001:3,0.011998,0.000255,refractory,link in refractory period
+1776783725.403759,mitigation_cleared_expired,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783725.403808,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783725.404474,spike_detected,0000000000000001:3,0.925712,0.624698,active,util=0.9257 delta=0.6247
+1776783725.404498,mitigation_installed,0000000000000001:3,0.925712,0.624698,active,target=path_a expiry=1776783728.404
+1776783725.908038,trigger_blocked_refractory,0000000000000001:2,0.000205,-0.960470,refractory,link in refractory period
+1776783726.411859,trigger_blocked_refractory,0000000000000001:2,0.630875,0.630670,refractory,link in refractory period
+1776783726.411914,recovery_started,0000000000000001:3,0.347214,0.000000,recovering,util below 0.6
+1776783726.917199,trigger_blocked_refractory,0000000000000001:2,0.630875,0.630670,refractory,link in refractory period
+1776783727.420534,spike_detected,0000000000000001:2,0.995349,0.364473,active,util=0.9953 delta=0.3645
+1776783727.420581,mitigation_installed,0000000000000001:2,0.995349,0.364473,active,target=path_b expiry=1776783730.421
+1776783727.420731,mitigation_cleared_recovered,0000000000000001:3,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783727.420751,refractory_entered,0000000000000001:3,0.000000,0.000000,refractory,duration=2.0s
+1776783727.925246,trigger_blocked_refractory,0000000000000001:3,0.012434,-0.334780,refractory,link in refractory period
+1776783728.430727,trigger_blocked_refractory,0000000000000001:3,0.563465,0.551031,refractory,link in refractory period
+1776783728.935708,trigger_blocked_refractory,0000000000000001:3,0.563465,0.551031,refractory,link in refractory period
+1776783729.438634,recovery_started,0000000000000001:2,0.336395,0.000000,recovering,util below 0.6
+1776783730.446417,mitigation_cleared_expired,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783730.446467,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783730.953890,trigger_blocked_refractory,0000000000000001:2,1.000000,0.663605,refractory,link in refractory period
+1776783731.457215,trigger_blocked_refractory,0000000000000001:2,0.986704,-0.013296,refractory,link in refractory period
+1776783731.960546,trigger_blocked_refractory,0000000000000001:2,0.986704,-0.013296,refractory,link in refractory period
+1776783735.510751,spike_detected,0000000000000001:3,0.855662,0.508564,active,util=0.8557 delta=0.5086
+1776783735.510811,mitigation_installed,0000000000000001:3,0.855662,0.508564,active,target=path_a expiry=1776783738.511
+1776783736.518503,recovery_started,0000000000000001:3,0.391209,0.000000,recovering,util below 0.6
+1776783737.526287,spike_detected,0000000000000001:2,0.992227,0.353324,active,util=0.9922 delta=0.3533
+1776783737.526333,mitigation_installed,0000000000000001:2,0.992227,0.353324,active,target=path_b expiry=1776783740.526
+1776783737.526502,mitigation_cleared_recovered,0000000000000001:3,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783737.526524,refractory_entered,0000000000000001:3,0.000000,0.000000,refractory,duration=2.0s
+1776783738.030360,trigger_blocked_refractory,0000000000000001:3,0.012340,-0.378869,refractory,link in refractory period
+1776783738.534041,trigger_blocked_refractory,0000000000000001:3,0.547345,0.535004,refractory,link in refractory period
+1776783739.036708,trigger_blocked_refractory,0000000000000001:3,0.547345,0.535004,refractory,link in refractory period
+1776783739.541490,recovery_started,0000000000000001:2,0.000293,0.000000,recovering,util below 0.6
+1776783739.541561,spike_detected,0000000000000001:3,0.901436,0.354091,active,util=0.9014 delta=0.3541
+1776783739.541578,mitigation_installed,0000000000000001:3,0.901436,0.354091,active,target=path_a expiry=1776783742.542
+1776783740.550550,mitigation_cleared_expired,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783740.550598,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783740.551240,recovery_started,0000000000000001:3,0.381640,0.000000,recovering,util below 0.6
+1776783741.054708,trigger_blocked_refractory,0000000000000001:2,0.595853,0.595560,refractory,link in refractory period
+1776783741.557799,trigger_blocked_refractory,0000000000000001:2,0.643006,0.047153,refractory,link in refractory period
+1776783741.557857,mitigation_cleared_recovered,0000000000000001:3,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783741.557874,refractory_entered,0000000000000001:3,0.000000,0.000000,refractory,duration=2.0s
+1776783742.062784,trigger_blocked_refractory,0000000000000001:2,0.643006,0.047153,refractory,link in refractory period
+1776783742.062847,trigger_blocked_refractory,0000000000000001:3,0.533177,0.151537,refractory,link in refractory period
+1776783742.567502,trigger_blocked_refractory,0000000000000001:3,0.891616,0.358439,refractory,link in refractory period
+1776783743.070604,trigger_blocked_refractory,0000000000000001:3,0.891616,0.358439,refractory,link in refractory period
+1776783745.589129,spike_detected,0000000000000001:2,0.980806,0.510216,active,util=0.9808 delta=0.5102
+1776783745.589174,mitigation_installed,0000000000000001:2,0.980806,0.510216,active,target=path_b expiry=1776783748.589
+1776783747.684347,recovery_started,0000000000000001:2,0.000385,0.000000,recovering,util below 0.6
+1776783748.690423,mitigation_cleared_expired,0000000000000001:2,0.000000,0.000000,refractory,entering refractory for 2.0s
+1776783748.690477,refractory_entered,0000000000000001:2,0.000000,0.000000,refractory,duration=2.0s
+1776783749.193760,trigger_blocked_refractory,0000000000000001:2,0.000507,0.000122,refractory,link in refractory period
+1776783749.697486,trigger_blocked_refractory,0000000000000001:2,0.000593,0.000086,refractory,link in refractory period
+1776783750.201434,trigger_blocked_refractory,0000000000000001:2,0.000593,0.000086,refractory,link in refractory period

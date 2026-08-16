@@ -1,0 +1,173 @@
+[15:00:47] [START] Run ID: 2026-04-21_15-00-47
+[15:00:47] [START] Output directory: results/intelliflow/2026-04-21_15-00-47
+[15:00:47] [PREDICT] Loaded LSTM model from /workspace/intelliflow/training/models/lstm_model.pt
+[15:00:47] [START] IntelliFlow controller initialized
+[15:00:53] [FLOW] Flow installed on 0000000000000001 (total: 1)
+[15:00:53] [START] Switch connected: 0000000000000001
+[15:00:53] [FLOW] Flow installed on 0000000000000004 (total: 2)
+[15:00:53] [START] Switch connected: 0000000000000004
+[15:00:53] [FLOW] Flow installed on 0000000000000002 (total: 3)
+[15:00:53] [START] Switch connected: 0000000000000002
+[15:00:53] [FLOW] Flow installed on 0000000000000003 (total: 4)
+[15:00:53] [START] Switch connected: 0000000000000003
+[15:00:53] [START] All switches connected - starting IntelliFlow layers
+[15:00:53] [FLOW] Flow installed on 0000000000000001 (total: 6)
+[15:00:53] [PREDICT] Baseline path set to path_a
+[15:00:53] [PREDICT] Predictive decision: path_a (A:0.50, B:0.50)
+[15:00:53] [PREDICT] Predictive layer started (T_plan=5s)
+[15:00:53] [REACTIVE] Reactive layer started (dt=500ms)
+[15:00:58] [PREDICT] Predictive decision: path_a (A:0.00, B:0.00)
+[15:01:03] [PREDICT] Predictive decision: path_a (A:0.00, B:0.00)
+[15:01:03] [FLOW] Flow installed on 0000000000000002 (total: 7)
+[15:01:03] [FLOW] Flow installed on 0000000000000004 (total: 8)
+[15:01:03] [FLOW] Flow installed on 0000000000000004 (total: 9)
+[15:01:03] [FLOW] Flow installed on 0000000000000002 (total: 10)
+[15:01:03] [FLOW] Flow installed on 0000000000000001 (total: 11)
+[15:01:08] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:01:13] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:01:18] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:01:23] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:01:28] [PREDICT] Predictive decision: path_b (A:0.12, B:0.05)
+[15:01:28] [FLOW] Flow installed on 0000000000000001 (total: 13)
+[15:01:28] [PREDICT] Baseline path set to path_b
+[15:01:28] [FLOW] Flow installed on 0000000000000003 (total: 14)
+[15:01:33] [PREDICT] Predictive decision: path_a (A:0.11, B:0.09)
+[15:01:33] [FLOW] Flow installed on 0000000000000001 (total: 16)
+[15:01:33] [PREDICT] Baseline path set to path_a
+[15:01:37] [MITIGATE] Mitigation triggered! Rerouting to path_b (congested link: ('0000000000000001', 2))
+[15:01:37] [FLOW] Flow installed on 0000000000000001 (total: 17)
+[15:01:37] [REACTIVE] Corrective flow installed: reroute to path_b
+[15:01:38] [PREDICT] Predictive decision: path_a (A:0.19, B:0.19)
+[15:01:39] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:01:39] [FLOW] Flow installed on 0000000000000001 (total: 20)
+[15:01:39] [PREDICT] Baseline path set to path_a
+[15:01:39] [RECOVER] Corrective flow cleared, baseline restored
+[15:01:43] [MITIGATE] Mitigation triggered! Rerouting to path_b (congested link: ('0000000000000001', 2))
+[15:01:43] [FLOW] Flow installed on 0000000000000001 (total: 21)
+[15:01:43] [REACTIVE] Corrective flow installed: reroute to path_b
+[15:01:43] [PREDICT] Predictive decision: path_b (A:0.81, B:0.09)
+[15:01:45] [REACTIVE] Ignoring mitigation (corrective already active): ('0000000000000001', 3)
+[15:01:46] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:01:46] [FLOW] Flow installed on 0000000000000001 (total: 24)
+[15:01:46] [PREDICT] Baseline path set to path_a
+[15:01:46] [RECOVER] Corrective flow cleared, baseline restored
+[15:01:47] [RECOVER] Mitigation cleared for link ('0000000000000001', 3)
+[15:01:47] [FLOW] Flow installed on 0000000000000001 (total: 27)
+[15:01:47] [PREDICT] Baseline path set to path_a
+[15:01:47] [RECOVER] Corrective flow cleared, baseline restored
+[15:01:48] [PREDICT] Predictive decision: path_a (A:0.11, B:0.10)
+[15:01:50] [MITIGATE] Mitigation triggered! Rerouting to path_b (congested link: ('0000000000000001', 2))
+[15:01:50] [FLOW] Flow installed on 0000000000000001 (total: 28)
+[15:01:50] [REACTIVE] Corrective flow installed: reroute to path_b
+[15:01:52] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:01:52] [FLOW] Flow installed on 0000000000000001 (total: 31)
+[15:01:52] [PREDICT] Baseline path set to path_a
+[15:01:52] [RECOVER] Corrective flow cleared, baseline restored
+[15:01:53] [PREDICT] Predictive decision: path_a (A:0.13, B:0.10)
+[15:01:58] [MITIGATE] Mitigation triggered! Rerouting to path_b (congested link: ('0000000000000001', 2))
+[15:01:58] [FLOW] Flow installed on 0000000000000001 (total: 32)
+[15:01:58] [REACTIVE] Corrective flow installed: reroute to path_b
+[15:01:58] [PREDICT] Predictive decision: path_b (A:0.56, B:0.10)
+[15:02:00] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:02:00] [FLOW] Flow installed on 0000000000000001 (total: 35)
+[15:02:00] [PREDICT] Baseline path set to path_a
+[15:02:00] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:00] [MITIGATE] Mitigation triggered! Rerouting to path_a (congested link: ('0000000000000001', 3))
+[15:02:00] [FLOW] Flow installed on 0000000000000001 (total: 36)
+[15:02:00] [REACTIVE] Corrective flow installed: reroute to path_a
+[15:02:02] [REACTIVE] Ignoring mitigation (corrective already active): ('0000000000000001', 2)
+[15:02:02] [RECOVER] Mitigation cleared for link ('0000000000000001', 3)
+[15:02:02] [FLOW] Flow installed on 0000000000000001 (total: 39)
+[15:02:02] [PREDICT] Baseline path set to path_a
+[15:02:02] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:03] [PREDICT] Predictive decision: path_b (A:0.57, B:0.11)
+[15:02:03] [FLOW] Flow installed on 0000000000000001 (total: 41)
+[15:02:03] [PREDICT] Baseline path set to path_b
+[15:02:05] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:02:05] [FLOW] Flow installed on 0000000000000001 (total: 44)
+[15:02:05] [PREDICT] Baseline path set to path_b
+[15:02:05] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:05] [MITIGATE] Mitigation triggered! Rerouting to path_a (congested link: ('0000000000000001', 3))
+[15:02:05] [FLOW] Flow installed on 0000000000000001 (total: 45)
+[15:02:05] [REACTIVE] Corrective flow installed: reroute to path_a
+[15:02:07] [REACTIVE] Ignoring mitigation (corrective already active): ('0000000000000001', 2)
+[15:02:07] [RECOVER] Mitigation cleared for link ('0000000000000001', 3)
+[15:02:07] [FLOW] Flow installed on 0000000000000001 (total: 48)
+[15:02:07] [PREDICT] Baseline path set to path_b
+[15:02:07] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:08] [PREDICT] Predictive decision: path_a (A:0.51, B:0.70)
+[15:02:08] [FLOW] Flow installed on 0000000000000001 (total: 50)
+[15:02:08] [PREDICT] Baseline path set to path_a
+[15:02:10] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:02:10] [FLOW] Flow installed on 0000000000000001 (total: 53)
+[15:02:10] [PREDICT] Baseline path set to path_a
+[15:02:10] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:13] [PREDICT] Predictive decision: path_b (A:0.85, B:0.13)
+[15:02:13] [FLOW] Flow installed on 0000000000000001 (total: 55)
+[15:02:13] [PREDICT] Baseline path set to path_b
+[15:02:15] [MITIGATE] Mitigation triggered! Rerouting to path_a (congested link: ('0000000000000001', 3))
+[15:02:15] [FLOW] Flow installed on 0000000000000001 (total: 56)
+[15:02:15] [REACTIVE] Corrective flow installed: reroute to path_a
+[15:02:17] [REACTIVE] Ignoring mitigation (corrective already active): ('0000000000000001', 2)
+[15:02:17] [RECOVER] Mitigation cleared for link ('0000000000000001', 3)
+[15:02:17] [FLOW] Flow installed on 0000000000000001 (total: 59)
+[15:02:17] [PREDICT] Baseline path set to path_b
+[15:02:17] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:18] [PREDICT] Predictive decision: path_b (A:0.72, B:0.65)
+[15:02:19] [MITIGATE] Mitigation triggered! Rerouting to path_a (congested link: ('0000000000000001', 3))
+[15:02:19] [FLOW] Flow installed on 0000000000000001 (total: 60)
+[15:02:19] [REACTIVE] Corrective flow installed: reroute to path_a
+[15:02:20] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:02:20] [FLOW] Flow installed on 0000000000000001 (total: 63)
+[15:02:20] [PREDICT] Baseline path set to path_b
+[15:02:20] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:21] [RECOVER] Mitigation cleared for link ('0000000000000001', 3)
+[15:02:21] [FLOW] Flow installed on 0000000000000001 (total: 66)
+[15:02:21] [PREDICT] Baseline path set to path_b
+[15:02:21] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:23] [PREDICT] Predictive decision: path_a (A:0.20, B:0.43)
+[15:02:23] [FLOW] Flow installed on 0000000000000001 (total: 68)
+[15:02:23] [PREDICT] Baseline path set to path_a
+[15:02:25] [MITIGATE] Mitigation triggered! Rerouting to path_b (congested link: ('0000000000000001', 2))
+[15:02:25] [FLOW] Flow installed on 0000000000000001 (total: 69)
+[15:02:25] [REACTIVE] Corrective flow installed: reroute to path_b
+[15:02:28] [RECOVER] Mitigation cleared for link ('0000000000000001', 2)
+[15:02:28] [FLOW] Flow installed on 0000000000000001 (total: 72)
+[15:02:28] [PREDICT] Baseline path set to path_a
+[15:02:28] [RECOVER] Corrective flow cleared, baseline restored
+[15:02:28] [PREDICT] Predictive decision: path_a (A:0.14, B:0.22)
+[15:02:33] [PREDICT] Predictive decision: path_a (A:0.13, B:0.11)
+[15:02:38] [PREDICT] Predictive decision: path_a (A:0.05, B:0.06)
+[15:02:43] [PREDICT] Predictive decision: path_a (A:0.05, B:0.06)
+[15:02:48] [PREDICT] Predictive decision: path_a (A:0.05, B:0.06)
+[15:02:53] [PREDICT] Predictive decision: path_a (A:0.05, B:0.06)
+[15:02:58] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:03] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:08] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:13] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:18] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:23] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:28] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:33] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:38] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:43] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:48] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:53] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:03:58] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:03] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:08] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:13] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:18] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:23] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:28] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:33] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:38] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:43] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:48] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:53] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:04:58] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:05:03] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:05:08] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:05:13] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:05:18] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)
+[15:05:23] [PREDICT] Predictive decision: path_a (A:0.05, B:0.05)

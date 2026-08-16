@@ -1,0 +1,14 @@
+# IntelliFlow Requirements
+# Core SDN framework
+os-ken 2.3.0
+
+# Machine learning
+torch 1.9.0
+numpy 1.20.0
+pandas 1.3.0
+
+# Mininet
+# sudo apt-get install mininet
+
+# Traffic generation
+# sudo apt-get install iperf3
